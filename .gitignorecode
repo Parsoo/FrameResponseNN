@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/raw_dataset.csv
+data/processed.npz
+data/test_unscaled.npz
+models/
+results/
+.env
+venv/
+env/
