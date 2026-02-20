@@ -1,3 +1,4 @@
+markdown
 # FrameResponseNN: Neural Network Surrogate for Seismic Response Prediction
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
@@ -83,3 +84,27 @@ After training on 500 samples, the model achieved the following performance on t
 ---
 
 ## 📁 Repository Structure
+FrameResponseNN/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/ # Generated datasets (raw and processed)
+├── models/ # Saved scalers and trained model
+├── results/ # Plots and evaluation figures
+└── src/
+├── generate_data.py # OpenSeesPy simulation loop
+├── preprocess.py # Data scaling & splitting
+├── train.py # MLP training
+├── evaluate.py # Performance visualization
+└── main.py # Run the entire pipeline
+
+text
+
+---
+
+## ⚙️ Setup and Usage
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Parsoo/FrameResponseNN.git
+   cd FrameResponseNN
